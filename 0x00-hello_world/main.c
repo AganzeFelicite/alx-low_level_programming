@@ -1,10 +1,12 @@
 #include <stdio.h>
+
 /**
  * main - Entry point
  *
- * return:always 0(successs)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	return (100);
+	printf("Holberton School");
+	return (0);
 }
