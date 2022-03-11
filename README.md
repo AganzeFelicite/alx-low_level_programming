@@ -1,4 +1,2 @@
-this is new 
-read me files 
-thasfj;kf
-dabjafb
+# alx-low_level_programming
+starting with c programming
