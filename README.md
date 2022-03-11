@@ -1,1 +1,4 @@
- this is a new directori
+this is new 
+read me files 
+thasfj;kf
+dabjafb
