@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(void)
 {
-        printf("welcom on board");
+        printf("Holberton School");
 	return 0;
 }
 
