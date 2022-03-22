@@ -4,7 +4,7 @@
 /**
  * _strlen -find the length of a string
  * @s:pointer to the string
- * Return : int
+ * Return : void
 */
 
 
