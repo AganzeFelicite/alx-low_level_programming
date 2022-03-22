@@ -2,11 +2,11 @@
 /**
  * _strlen - find the length of a string
  * @s:pointer to the string
- * Return : void
+ * Return: i
 */
 
 
-int _strlen(char *s)
+int  _strlen(char *s)
 {
 int i = 0;
 while (s[i])
