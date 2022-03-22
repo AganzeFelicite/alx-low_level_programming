@@ -1,5 +1,5 @@
 #include "main.h"
-#include <string.h>
+
 /**
  * _strlen - find the length of a string
  * @s:pointer to the string
@@ -13,7 +13,7 @@ int i;
 while(*s != '\0')
 {
 s++;
-i++
+i++;
 }
 return (i);
 }
