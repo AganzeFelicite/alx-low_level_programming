@@ -2,8 +2,7 @@
 
 /**
  * this function Write a function that takes
- * a pointer to an int as parameter and u 
- * pdates the value it points to to 98.
+ * reset_to_98 function
  * function void reset_to_98(int *n)
  */
 

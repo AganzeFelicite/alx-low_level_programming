@@ -3,8 +3,7 @@
 
 /**
  * main - check the code 
- *
- * Return: Always 0.
+ * @n: int to be checked
  */
 int main(void)
 {
