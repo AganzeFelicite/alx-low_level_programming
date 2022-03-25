@@ -24,3 +24,4 @@ dest[len1+i] = src[i];
 }
 return(dest);
 }
+
