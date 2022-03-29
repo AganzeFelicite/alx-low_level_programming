@@ -1,10 +1,9 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
  * _memeset - function to fill the memory allocationts withconstants byte
- * @s:pointer to memory area
- * @b:a char variable
+ * @s: pointer to memory area
+ * @b: a char variable
  * @n: unsigned integer
  * Return: s
 **/
