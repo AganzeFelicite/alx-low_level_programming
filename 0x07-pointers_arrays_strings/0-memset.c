@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include "main.h"
 /**
  * _memeset - function to fill the memory allocationts withconstants byte
  * @s:pointer to memory area
