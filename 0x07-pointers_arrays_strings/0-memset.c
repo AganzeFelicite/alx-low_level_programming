@@ -5,15 +5,16 @@
  * @s:pointer to memory area
  * @b:a char variable
  * @n: unsigned integer
- * Return: void
+ * Return: s
 **/
 
 char *_memset(char *s, char b, unsigned int n)
 {
 unsigned int i;
-for (i=0;i<n;i++)
+for (i = 0;i < n; i++)
 {
-s[i]=b; 
+s [i] = b; 
 }
 return (s);
 }
+
