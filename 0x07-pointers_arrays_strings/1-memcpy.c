@@ -3,7 +3,7 @@
 /**
  * _memcpy - to copy memory block
  * @dest: a pointer of destination
- * @scr: a pointer of origin
+ * @src: a pointer of origin
  * @n: number of elements
  * Return: dest
 */
