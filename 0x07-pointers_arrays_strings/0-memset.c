@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include <string.h>
 #include "main.h"
+
 /**
  * _memeset - function to fill the memory allocationts withconstants byte
  * @s:pointer to memory area
@@ -8,6 +8,7 @@
  * @n: unsigned integer
  * Return: s
 **/
+
 
 char *_memset(char *s, char b, unsigned int n)
 {
