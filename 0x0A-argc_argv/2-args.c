@@ -1,12 +1,12 @@
 #include <stdlib.h>
 #include <stdio.h>
+
 /**
  * main -function
  * @argc: number ofinputs
  * @argv: array of inputs
  * Return: int
 **/
-
 
 int main(int argc, char *argv[])
 {
@@ -24,5 +24,3 @@ printf("%s\n", argv[i]);
 return (0);
 
 }
-
-
