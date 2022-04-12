@@ -15,9 +15,9 @@ len1 = 0;
 i = 0;
 j = 0;
 len2 = 0;
-while (s1[len1])
+while (s1 && s1[len1])
 	len1++;
-while (s2[len2])
+while (s2 && s2[len2])
 	len2++;
 size = (len1 + len2 + 1);
 p = malloc(sizeof(char) * size);
