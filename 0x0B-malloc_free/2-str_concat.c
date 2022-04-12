@@ -37,7 +37,7 @@ i++;
 }
 if (s2)
 {
-while (i < (len1 + len))
+while (i < (len1 + len2))
 {
 p[i] = s2[j];
 j++;
