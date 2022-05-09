@@ -26,6 +26,6 @@ nw = write(STDOUT_FILENO, ptr, nr);
 if (nw == -1)
 	return (0);
 return (nw);
-free(ptr);
 close(nl);
+free(ptr);
 }
