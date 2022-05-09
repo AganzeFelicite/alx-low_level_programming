@@ -28,6 +28,6 @@ if (nw < 0)
 	free(ptr);
 	return (0);
 return (nw);
-free(ptr);
 close(nl);
+free(ptr);
 }
