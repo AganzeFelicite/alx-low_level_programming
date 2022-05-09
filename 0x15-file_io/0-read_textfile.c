@@ -14,18 +14,16 @@ char *ptr;
 if (!filename)
 	return (0);
 nl = open(filename, O_RDONLY);
-if (nl < 0)
+if (nl == -1)
 	return (0);
 ptr = malloc(sizeof(char) * letters);
 if (!ptr)
 	return (0);
 nr = read(nl, ptr, letters);
-if (nr < 0)
-	free(ptr);
+if (nr == -1)
 	return (0);
 nw = write(STDOUT_FILENO, ptr, nr);
-if (nw < 0)
-	free(ptr);
+if (nw == -1)
 	return (0);
 return (nw);
 close(nl);
