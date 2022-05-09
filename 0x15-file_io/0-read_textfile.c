@@ -20,8 +20,12 @@ ptr = malloc(sizeof(char) * letters);
 if (!ptr)
 	return (0);
 nr = read(nl, ptr, letters);
+if (nr == -1)
+	return (0);
 nw = write(STDOUT_FILENO, ptr, nr);
+if (nw == -1)
+	return (0);
 return (nw);
-close(nl);
 free(ptr);
+close(nl);
 }
