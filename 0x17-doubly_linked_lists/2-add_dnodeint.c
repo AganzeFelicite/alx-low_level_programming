@@ -1,6 +1,7 @@
 #include "lists.h"
 /*
- * add_nodeint_t - function to add anode at the beginning
+ * add_dnodeint  -  function to add anode at the beginning
+ * @head: pointer tp the first node
  * @n: the value to go in the node
  * Return: a node
  */
