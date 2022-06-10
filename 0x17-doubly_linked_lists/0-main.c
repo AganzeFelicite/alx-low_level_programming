@@ -1,3 +1,6 @@
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
 #include "lists.h"
 
 /**
@@ -16,8 +19,8 @@ int main(void)
     new = malloc(sizeof(dlistint_t));
     if (new == NULL)
     {
-            dprintf(2, "Error: Can't malloc\n");
-            return (EXIT_FAILURE);
+        dprintf(2, "Error: Can't malloc\n");
+        return (EXIT_FAILURE);
     }
     new->n = 9;
     head->prev = new;
