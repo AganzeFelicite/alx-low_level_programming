@@ -9,7 +9,7 @@
 size_t dlistint_len(const dlistint_t *h)
 {
 	const dlistint_t *iterator;
-	int countnodes = 0;
+	size_t countnodes = 0;
 
 	if (!h)
 		return (countnodes);
