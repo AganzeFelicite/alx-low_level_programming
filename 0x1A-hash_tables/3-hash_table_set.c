@@ -24,7 +24,6 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 		{
 			free(ht->array[i]->value);
 			ht->array[i]->value = new_value;
-			free(new_value);
 			return (1);
 		}
 	}
